@@ -14,8 +14,8 @@ Recordings of the weekly lectures are published on our [YouTube channel](https:/
 
 
 ## 1st Contact with CUDA
-- [An Easy Introduction to CUDA C and C++](src/01)
-- [An Even Easier Introduction to CUDA](https://developer.nvidia.com/blog/even-easier-introduction-cuda/)
+- [An Easy Introduction to CUDA C and C++](src/01) *ok*
+- [An Even Easier Introduction to CUDA](src/02)
 - [CUDA Toolkit Documentation ](https://docs.nvidia.com/cuda/)
 - Basic terminology: Thread block, Warp, Streaming Multiprocessor: [Wiki: Thread Block](https://en.wikipedia.org/wiki/Thread_block_(CUDA_programming)), [A tour of CUDA](https://tbetcke.github.io/hpc_lecture_notes/cuda_introduction.html)
 - [GPU Performance Background User's Guide](https://docs.nvidia.com/deeplearning/performance/dl-performance-gpu-background/index.html)

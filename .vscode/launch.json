@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/github/cuda-mode-resource-stream/src/01",
-      "program": "d:/github/cuda-mode-resource-stream/src/01/build/Debug/outDebug",
+      "cwd": "d:/github/cuda-mode-resource-stream/src/blogs/01",
+      "program": "d:/github/cuda-mode-resource-stream/src/blogs/01/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
