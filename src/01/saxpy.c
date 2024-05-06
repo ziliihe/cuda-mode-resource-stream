@@ -2,6 +2,8 @@
 #include <time.h>
 #include <stdlib.h>
 
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
 int main(void)
 {
     int N = 1 << 30;
@@ -23,8 +25,13 @@ int main(void)
     end = clock();
     double cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
 
-    printf("[CLang] Calculate Time Comsuption -> count [%d]: %f seconds\n", N, cpu_time_used);
+    
 
+    float maxError = 0.0f;
+    for (int i = 0; i < N; i++) {
+        maxError = MAX(maxError, abs(y[i] - 4.0f));
+    }
+    printf("[CLang] Calculate Time Comsuption -> count [%d]: %f seconds, maxError: %f\n", N, cpu_time_used, maxError);
     free(x);
     free(y);
 

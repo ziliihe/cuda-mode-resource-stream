@@ -8,5 +8,8 @@ if (-not (Test-Path -Path $directory -PathType Container)) {
 }
 
 nvcc saxpy.cu -o out/saxpy
-Write-output "CUDA 编译完成，运行...."
+Write-output "[CUDA ]编译完成，运行...."
 out/saxpy
+
+gcc saxpy.c -o out/saxpy_c
+out/saxpy_c.exe

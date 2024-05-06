@@ -48,14 +48,12 @@ int main(void)
     end = clock();
     double cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
 
-    printf("[ Cuda] Calculate Time Comsuption -> count [%d]: %f seconds\n", N, cpu_time_used);
-
     float maxError = 0.0f;
     for (int i = 0; i < N; i++) {
         maxError = max(maxError, abs(y[i] - 4.0f));
     }
         
-    // printf("Max error: %f\n", maxError);
+    printf("[ Cuda] Calculate Time Comsuption -> count [%d]: %f seconds, maxError: %f\n", N, cpu_time_used, maxError);
 
     cudaFree(d_x);
     cudaFree(d_y);

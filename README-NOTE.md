@@ -14,7 +14,7 @@ Recordings of the weekly lectures are published on our [YouTube channel](https:/
 
 
 ## 1st Contact with CUDA
-- [An Easy Introduction to CUDA C and C++](https://developer.nvidia.com/blog/easy-introduction-cuda-c-and-c/)
+- [An Easy Introduction to CUDA C and C++](src/01)
 - [An Even Easier Introduction to CUDA](https://developer.nvidia.com/blog/even-easier-introduction-cuda/)
 - [CUDA Toolkit Documentation ](https://docs.nvidia.com/cuda/)
 - Basic terminology: Thread block, Warp, Streaming Multiprocessor: [Wiki: Thread Block](https://en.wikipedia.org/wiki/Thread_block_(CUDA_programming)), [A tour of CUDA](https://tbetcke.github.io/hpc_lecture_notes/cuda_introduction.html)
@@ -172,7 +172,6 @@ Recordings of the weekly lectures are published on our [YouTube channel](https:/
 - Custom implementation of relative position attention ([link](https://github.com/pytorch-labs/segment-anything-fast/blob/main/segment_anything_fast/flash_4.py))
 - Tri Dao's Triton implementation of Flash Attention: [flash_attn_triton.py](https://github.com/Dao-AILab/flash-attention/blob/main/flash_attn/flash_attn_triton.py)
 - YouTube playlist: [Triton Conference 2023](https://www.youtube.com/watch?v=ZGU0Yw7mORE&list=PLc_vA1r0qoiRZfUC3o4_yjj0FtWvodKAz)
-- [LightLLM](https://github.com/ModelTC/lightllm) with different triton kernels for different LLMs
 
 
 ## How to contribute
